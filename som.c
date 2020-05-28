@@ -226,7 +226,7 @@ void update(t_bmu* b_mu)
 void init_n_conf()
 {
     N_conf.n_l_out=6;
-	N_conf.n_c_out=10;
+    N_conf.n_c_out=10;
     N_conf.n_out=N_conf.n_l_out*N_conf.n_c_out;
     N_conf.n_in=4;
     N_conf.nb_it=30000;
@@ -239,8 +239,8 @@ void read_data()
 {
     FILE * in;
 
-	char *str=malloc(sizeof(char)*500);
-	in=fopen("iris.data","r");
+    char *str=malloc(sizeof(char)*500);
+    in=fopen("iris.data","r");
 
     int i,j;
 	for(i=0;i<150;i++)
